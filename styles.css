@@ -1,0 +1,90 @@
+/* Основни стилове за целия сайт */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f3f1; /* Пастелен светъл кремав фон */
+}
+
+header {
+    background-color: #A3D8D2; /* Пастелен ментово-зелен цвят */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+#confirmation {
+    background-color: #ffffff; /* Бял фон за секцията */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Леко сянка за по-мек ефект */
+}
+
+#confirmation p {
+    font-size: 20px;
+    color: #555; /* Тъмно сив текст за четимост */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Пастелни цветове за бутоните */
+.confirm {
+    background-color: #B8E0D2; /* Пастелен зелен цвят за потвърждение */
+    color: white;
+}
+
+.decline {
+    background-color: #F7C8D3; /* Пастелен розов цвят за отказ */
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8; /* Леко намаляване на интензитета при задържане */
+}
+
+#location {
+    background-color: #ffffff; /* Бял фон за секцията */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#location h2 {
+    color: #A3D8D2; /* Пастелен ментово-зелен за заглавието на местоположението */
+    font-size: 22px;
+}
+
+footer {
+    background-color: #A3D8D2; /* Пастелен ментово-зелен фон за футъра */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
